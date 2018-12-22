@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <!-- Load the latest version of TensorFlow.js -->
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+  <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+</head>
+
+<body>
+  <div id="console">
+  </div>
+  <video autoplay playsinline muted id="webcam" width="400" height="400"></video>
+  <button id="class-a">Present</button>
+  <button id="class-b">Absent</button>
+ <p>Press Present when you're infront of webcam view.</p>
+  <p>Press Absent when you're not present inside webcam view</p>
+  <p>Once model has enough example of both, the page will turn green when you're in view and red when away</p>  
+<script src="index.js"></script>
+</body>
+
+</html>
