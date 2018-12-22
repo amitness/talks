@@ -1,6 +1,14 @@
 # Data Science in the Cloud
 
+This are the notebooks for the talk I gave on "Data Science in the Cloud" as part of KU IT Meet 2018.
 
+The session was structured with case studies corresponding to the decreasing level of control you have over the underlying resources.
+
+- Local Computer / VM(EC2) Instances: [Intro to Data Science](intro-data-science) 
+- AWS Sagemaker: [Detect digits in cheque](amount-in-cheque)
+- AWS ML Services: [CCTV Weapon Detection](weapon-detection-aws) 
+- Serverless Computing: [Customer Reviews Sentiment](review-sentiments)
+- Client Side ML: [Person Presence Detection](client-side-ml)
 
 ### Questions from Audience
 - What approach would you recommend to beginners for learning machine learning?  
